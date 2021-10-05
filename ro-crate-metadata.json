@@ -1131,6 +1131,7 @@
       "identifier": "Apache-2.0",
       "name": "Apache License 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0",
+      "description": "Licensed under the Apache License, Version 2.0 (the \"License\");\nyou may not use this file except in compliance with the License.\nYou may obtain a copy of the License at\n\n    http://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software\ndistributed under the License is distributed on an \"AS IS\" BASIS,\nWITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\nSee the License for the specific language governing permissions and\nlimitations under the License.",
       "version": "2.0"
     },
     {
@@ -1138,6 +1139,7 @@
       "@type": "CreativeWork",
       "identifier": "CC-BY-4.0",
       "name": "Creative Commons Attribution 4.0 International",
+      "description": "This is a human-readable summary of (and not a substitute for) the license.\nYou are free to:\n\n    Share — copy and redistribute the material in any medium or format\n    Adapt — remix, transform, and build upon the material\n    for any purpose, even commercially.\n\nThis license is acceptable for Free Cultural Works.\n    The licensor cannot revoke these freedoms as long as you follow the license terms.\n\nUnder the following terms:\n    Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.\n    No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.\n\nNotices:\n    You do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation.\n    No warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.",
       "url": "https://creativecommons.org/licenses/by/4.0/",
       "version": "4.0"
     },
@@ -1146,6 +1148,7 @@
       "@type": "CreativeWork",
       "identifier": "CC0-1.0",
       "name": "Creative Commons Zero v1.0 Universal",
+      "description": "This is a human-readable summary of the Legal Code (read the full text).\n\nNo Copyright\n\n    The person who associated a work with this deed has dedicated the work to the public domain by waiving all of his or her rights to the work worldwide under copyright law, including all related and neighboring rights, to the extent allowed by law.\n\n    You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission. See Other Information below.\n\nThis license is acceptable for Free Cultural Works.\nOther Information\n\n    In no way are the patent or trademark rights of any person affected by CC0, nor are the rights that other persons may have in the work or in how the work is used, such as publicity or privacy rights.\n    Unless expressly stated otherwise, the person who associated a work with this deed makes no warranties about the work, and disclaims liability for all uses of the work, to the fullest extent permitted by applicable law.\n    When using or citing the work, you should not imply endorsement by the author or the affirmer.\n",
       "url": "https://creativecommons.org/publicdomain/zero/1.0/",
       "version": "1.0"
     },
@@ -1154,6 +1157,13 @@
       "@type": "Organization",
       "name": "ResearchObject.org",
       "url": "https://www.researchobject.org/"
+    },
+    {
+      "@id": "https://w3id.org/ro/crate/1.1",
+      "name": "RO-Crate Metadata Specification 1.1",
+      "identifier": "https://doi.org/10.5281/zenodo.4541002",
+      "datePublished": "2021-02-15T12:00:00Z",
+      "version": "1.1.1"
     },
     {
       "@id": "https://www.researchobject.org/ro-crate/1.1/ro-crate-metadata.jsonld",
