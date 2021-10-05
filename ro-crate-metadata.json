@@ -1126,6 +1126,31 @@
       "name": "Ronald Siebes"
     },
     {
+      "@id": "https://orcid.org/0000-0003-4196-3658",
+      "@type": "Person",
+      "name": "Shaun de Witt"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-2318-4477",
+      "@type": "Person",
+      "name": "Shady El Damaty"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-1248-3594",
+      "@type": "Person",
+      "name": "Douglas Lowe"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-0792-8157",
+      "@type": "Person",
+      "name": "Sergio Serra"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-1498-6205",
+      "@type": "Person",
+      "name": "Xuanqi Li"
+    },    
+    {
       "@id": "https://spdx.org/licenses/Apache-2.0",
       "@type": "CreativeWork",
       "identifier": "Apache-2.0",
@@ -1328,13 +1353,29 @@
         },
         {
           "@id": "https://orcid.org/0000-0001-8772-7904"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-4196-3658"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-2318-4477"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-1248-3594"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-0792-8157"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-1498-6205"
         }
+    
       ],
       "name": "RO-Crate Community",
       "parentOrganization": {
         "@id": "https://www.researchobject.org/"
       },
-      "sdDatePublished": "2021-08-13T12:35:00Z",
+      "sdDatePublished": "2021-10-05T17:41:00Z",
       "url": "https://www.researchobject.org/ro-crate/community"
     },
     {
