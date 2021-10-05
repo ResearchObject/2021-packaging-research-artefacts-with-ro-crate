@@ -140,8 +140,23 @@
         },
         {
           "@id": "#role-0000-0003-4929-1219"
+        },
+        {
+          "@id": "#role-0000-0002-4763-3943"
+        },
+        {
+          "@id": "#role-0000-0002-1112-1292"
+        },
+        {
+          "@id": "#role-reviewer-3"
+        },
+        {
+          "@id": "#role-0000-0003-0530-4305"
         }
       ],
+      "creativeWorkStatus": {
+        "@id": "http://purl.org/spar/pso/accepted-for-publication"
+      },
       "description": "This is the RO-Crate for the article about RO-Crate, submitted to Data Science. The manuscript is included in HTML and PDF versions. Additionally this crate adds the latest RO-Crate specifications and known RO-Crate implementations.",
       "encoding": [
         {
@@ -169,6 +184,10 @@
         } 
       ],
       "identifier": "https://doi.org/10.5281/zenodo.5146227",
+      "isBasedOn": {
+        "@id": "https://doi.org/10.5281/zenodo.5146228"
+      },
+      "review": {"@id": "https://datasciencehub.net/paper/packaging-research-artefacts-ro-crate"},
       "keywords": "Research Object, Linked Data, Scholarly Communication, Data publishing, Data packaging, FAIR, Metadata, Reproducibility",
       "license": {
         "@id": "https://spdx.org/licenses/CC-BY-4.0"
@@ -180,8 +199,17 @@
       "publisher": {
         "@id": "https://www.researchobject.org/"
       },
-      "datePublished": "2021-08-13T14:00:00Z",
+      "datePublished": "2021-10-18T12:00:00Z",
       "url": "https://www.researchobject.org/2021-packaging-research-artefacts-with-ro-crate/"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.5146228",
+      "@type": "ScholarlyArticle",
+      "name": "Packaging research artefacts with RO-Crate",
+      "datePublished": "2021-08-13T14:00:00Z",
+      "creativeWorkStatus": {
+        "@id": "http://purl.org/spar/pso/submitted"
+      }
     },
     {
       "@id": "https://w3id.org/ro/crate/",
@@ -748,6 +776,51 @@
       "name": "Contributions by RO-Crate Community"
     },
     {
+      "@id": "#role-0000-0002-4763-3943",
+      "@type": "Role",
+      "name": "Reviewed by by Angelo A.",
+      "additionalType": [
+        {"@id": "http://purl.obolibrary.org/obo/CRO_0000101"}
+      ],
+      "contributor": {
+        "@id": "https://orcid.org/0000-0002-4763-3943"
+      }
+    },
+    {
+      "@id": "#role-0000-0002-1112-1292",
+      "@type": "Role",
+      "name": "Reviewed by Alessia Bardi",
+      "additionalType": [
+        {"@id": "http://purl.obolibrary.org/obo/CRO_0000101"}
+      ],
+      "contributor": {
+        "@id": "https://orcid.org/0000-0002-1112-1292"
+      }
+    },
+    {
+      "@id": "#role-reviewer-3",
+      "@type": "Role",
+      "name": "Reviewed by (anonymous)",
+      "additionalType": [
+        {"@id": "http://purl.obolibrary.org/obo/CRO_0000101"}
+      ],
+      "contributor": {
+        "@id": "#reviewer-3"
+      }
+    },
+    {
+      "@id": "#role-0000-0003-0530-4305",
+      "@type": "Role",
+      "name": "Metareviewed by editor Silvio Peroni",
+      "additionalType": [
+        {"@id": "http://purl.obolibrary.org/obo/CRO_0000101"},
+        {"@id": "http://purl.obolibrary.org/obo/CRO_0000104"}
+      ],
+      "contributor": {
+        "@id": "https://orcid.org/0000-0003-0530-4305"
+      }
+    },
+    {
       "@id": "manuscript.html",
       "@type": ["File", "ScholarlyArticle"],
       "author": [
@@ -1149,7 +1222,47 @@
       "@id": "https://orcid.org/0000-0003-1498-6205",
       "@type": "Person",
       "name": "Xuanqi Li"
-    },    
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-4763-3943",
+      "@type": "Person",
+      "name": "Angelo A."
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-1112-1292",
+      "@type": "Person",
+      "name": "Alessia Bardi"
+    },
+    {
+      "@id": "#reviewer-3",
+      "@type": "Person",
+      "name": "(anonymous)"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-0530-4305",
+      "@type": "Person",
+      "name": "Silvio Peroni"
+    },
+    {
+      "@id": "https://datasciencehub.net/paper/packaging-research-artefacts-ro-crate",
+      "type": "Review",
+      "name": "DataScience submission 706-1686: Packaging research artefacts with RO-Crate",
+      "itemReviewed": {
+        "@id": "https://doi.org/10.5281/zenodo.5146228"
+      },
+      "contributor": [
+        {
+          "@id": "#role-0000-0002-4763-3943"
+        },
+        {
+          "@id": "#role-0000-0002-1112-1292"
+        },
+        {
+          "@id": "#role-reviewer-3"
+        }
+      ],
+      "editor": {"@id": "https://orcid.org/0000-0003-0530-4305"}
+    },
     {
       "@id": "https://spdx.org/licenses/Apache-2.0",
       "@type": "CreativeWork",
@@ -1379,143 +1492,163 @@
       "url": "https://www.researchobject.org/ro-crate/community"
     },
     {
+      "@id": "http://purl.org/spar/pso/submitted",
+      "@type": "DefinedTerm",
+      "name": "submitted"
+    },
+    {
+      "@id": "http://purl.org/spar/pso/accepted-for-publication",
+      "@type": "DefinedTerm",
+      "name": "accepted for publication"
+    },
+    {
       "@id": "http://purl.obolibrary.org/obo/CRO_0000003",
-      "@type": "Thing",
+      "@type": "DefinedTerm",
       "name": "figure development role"
     },
     {
       "@id": "http://purl.obolibrary.org/obo/CRO_0000006",
-      "@type": "Thing",
+      "@type": "DefinedTerm",
       "name": "background and literature search role"
     },
     {
       "@id": "http://purl.obolibrary.org/obo/CRO_0000008",
-      "@type": "Thing",
+      "@type": "DefinedTerm",
       "name": "website role"
     },
     {
       "@id": "http://purl.obolibrary.org/obo/CRO_0000014",
-      "@type": "Thing",
+      "@type": "DefinedTerm",
       "name": "technical documentation role"
     },
     {
       "@id": "http://purl.obolibrary.org/obo/CRO_0000038",
-      "@type": "Thing",
+      "@type": "DefinedTerm",
       "name": "metadata role"
     },
     {
       "@id": "http://purl.obolibrary.org/obo/CRO_0000051",
-      "@type": "Thing",
+      "@type": "DefinedTerm",
       "name": "system administrator role"
     },
     {
       "@id": "http://purl.obolibrary.org/obo/CRO_0000073",
-      "@type": "Thing",
+      "@type": "DefinedTerm",
       "name": "standards development role"
     },
     {
       "@id": "http://purl.obolibrary.org/obo/CRO_0000081",
-      "@type": "Thing",
+      "@type": "DefinedTerm",
       "name": "coordination role"
     },
     {
       "@id": "http://purl.obolibrary.org/obo/CRO_0000083",
-      "@type": "Thing",
+      "@type": "DefinedTerm",
       "name": "community engagement role"
     },
     {
       "@id": "http://purl.obolibrary.org/obo/CRO_0000089",
-      "@type": "Thing",
+      "@type": "DefinedTerm",
       "name": "lay summary role"
     },
     {
       "@id": "http://purl.obolibrary.org/obo/CRO_0000091",
-      "@type": "Thing",
+      "@type": "DefinedTerm",
       "name": "technical writing role"
     },
     {
       "@id": "http://purl.obolibrary.org/obo/CRO_0000100",
-      "@type": "Thing",
+      "@type": "DefinedTerm",
       "name": "presenter role"
     },
     {
+      "@id": "http://purl.obolibrary.org/obo/CRO_0000101",
+      "@type": "DefinedTerm",
+      "name": "peer review role"
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/CRO_0000104",
+      "@type": "DefinedTerm",
+      "name": "acceptor role"
+    },
+    {
       "@id": "http://purl.obolibrary.org/obo/CRO_0000102",
-      "@type": "Thing",
+      "@type": "DefinedTerm",
       "name": "advisory role"
     },
     {
       "@id": "http://purl.obolibrary.org/obo/CRO_0000103",
-      "@type": "Thing",
+      "@type": "DefinedTerm",
       "name": "modifier role"
     },
     {
       "@id": "http://purl.obolibrary.org/obo/CRO_0000105",
-      "@type": "Thing",
+      "@type": "DefinedTerm",
       "name": "submitter role"
     },
     {
       "@id": "http://purl.org/credit/ontology#CREDIT_00000001",
-      "@type": "Thing",
+      "@type": "DefinedTerm",
       "name": "conceptualization role"
     },
     {
       "@id": "http://purl.org/credit/ontology#CREDIT_00000002",
-      "@type": "Thing",
+      "@type": "DefinedTerm",
       "name": "data curation role"
     },
     {
       "@id": "http://purl.org/credit/ontology#CREDIT_00000003",
-      "@type": "Thing",
+      "@type": "DefinedTerm",
       "name": "formal analysis role"
     },
     {
       "@id": "http://purl.org/credit/ontology#CREDIT_00000004",
-      "@type": "Thing",
+      "@type": "DefinedTerm",
       "name": "funding acquisition role"
     },
     {
       "@id": "http://purl.org/credit/ontology#CREDIT_00000005",
-      "@type": "Thing",
+      "@type": "DefinedTerm",
       "name": "investigation role"
     },
     {
       "@id": "http://purl.org/credit/ontology#CREDIT_00000006",
-      "@type": "Thing",
+      "@type": "DefinedTerm",
       "name": "methodology role"
     },
     {
       "@id": "http://purl.org/credit/ontology#CREDIT_00000007",
-      "@type": "Thing",
+      "@type": "DefinedTerm",
       "name": "project administration role"
     },
     {
       "@id": "http://purl.org/credit/ontology#CREDIT_00000009",
-      "@type": "Thing",
+      "@type": "DefinedTerm",
       "name": "software role"
     },
     {
       "@id": "http://purl.org/credit/ontology#CREDIT_00000010",
-      "@type": "Thing",
+      "@type": "DefinedTerm",
       "name": "supervision role"
     },
     {
       "@id": "http://purl.org/credit/ontology#CREDIT_00000011",
-      "@type": "Thing",
+      "@type": "DefinedTerm",
       "name": "validation role"
     },
     {
       "@id": "http://purl.org/credit/ontology#CREDIT_00000012",
-      "@type": "Thing",
+      "@type": "DefinedTerm",
       "name": "visualization role"
     },
     {
       "@id": "http://purl.org/credit/ontology#CREDIT_00000013",
-      "@type": "Thing",
+      "@type": "DefinedTerm",
       "name": "writing original draft role"
     },
     {
       "@id": "http://purl.org/credit/ontology#CREDIT_00000014",
-      "@type": "Thing",
+      "@type": "DefinedTerm",
       "name": "writing review and editing role"
     },
     {

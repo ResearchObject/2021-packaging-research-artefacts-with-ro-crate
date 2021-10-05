@@ -147,8 +147,23 @@
         },
         {
           "@id": "#role-0000-0003-4929-1219"
+        },
+        {
+          "@id": "#role-0000-0002-4763-3943"
+        },
+        {
+          "@id": "#role-0000-0002-1112-1292"
+        },
+        {
+          "@id": "#role-reviewer-3"
+        },
+        {
+          "@id": "#role-0000-0003-0530-4305"
         }
       ],
+      "creativeWorkStatus": {
+        "@id": "http://purl.org/spar/pso/accepted-for-publication"
+      },
       "description": "This is the RO-Crate for the article about RO-Crate, submitted to Data Science. The manuscript is included in HTML and PDF versions. Additionally this crate adds the latest RO-Crate specifications and known RO-Crate implementations.",
       "encoding": [
         {
@@ -176,6 +191,12 @@
         }
       ],
       "identifier": "https://doi.org/10.5281/zenodo.5146227",
+      "isBasedOn": {
+        "@id": "https://doi.org/10.5281/zenodo.5146228"
+      },
+      "review": {
+        "@id": "https://datasciencehub.net/paper/packaging-research-artefacts-ro-crate"
+      },
       "keywords": "Research Object, Linked Data, Scholarly Communication, Data publishing, Data packaging, FAIR, Metadata, Reproducibility",
       "license": {
         "@id": "https://spdx.org/licenses/CC-BY-4.0"
@@ -189,12 +210,33 @@
       "publisher": {
         "@id": "https://www.researchobject.org/"
       },
-      "datePublished": "2021-08-13T14:00:00Z",
+      "datePublished": "2021-10-18T12:00:00Z",
       "url": "https://www.researchobject.org/2021-packaging-research-artefacts-with-ro-crate/",
       "@reverse": {
         "about": [
           {
             "@id": "ro-crate-metadata.json"
+          }
+        ]
+      }
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.5146228",
+      "@type": "ScholarlyArticle",
+      "name": "Packaging research artefacts with RO-Crate",
+      "datePublished": "2021-08-13T14:00:00Z",
+      "creativeWorkStatus": {
+        "@id": "http://purl.org/spar/pso/submitted"
+      },
+      "@reverse": {
+        "isBasedOn": [
+          {
+            "@id": "./"
+          }
+        ],
+        "itemReviewed": [
+          {
+            "@id": "https://datasciencehub.net/paper/packaging-research-artefacts-ro-crate"
           }
         ]
       }
@@ -923,6 +965,98 @@
         "@id": "https://www.researchobject.org/ro-crate/community"
       },
       "name": "Contributions by RO-Crate Community",
+      "@reverse": {
+        "contributor": [
+          {
+            "@id": "./"
+          }
+        ]
+      }
+    },
+    {
+      "@id": "#role-0000-0002-4763-3943",
+      "@type": "Role",
+      "name": "Reviewed by by Angelo A.",
+      "additionalType": [
+        {
+          "@id": "http://purl.obolibrary.org/obo/CRO_0000101"
+        }
+      ],
+      "contributor": {
+        "@id": "https://orcid.org/0000-0002-4763-3943"
+      },
+      "@reverse": {
+        "contributor": [
+          {
+            "@id": "./"
+          },
+          {
+            "@id": "https://datasciencehub.net/paper/packaging-research-artefacts-ro-crate"
+          }
+        ]
+      }
+    },
+    {
+      "@id": "#role-0000-0002-1112-1292",
+      "@type": "Role",
+      "name": "Reviewed by Alessia Bardi",
+      "additionalType": [
+        {
+          "@id": "http://purl.obolibrary.org/obo/CRO_0000101"
+        }
+      ],
+      "contributor": {
+        "@id": "https://orcid.org/0000-0002-1112-1292"
+      },
+      "@reverse": {
+        "contributor": [
+          {
+            "@id": "./"
+          },
+          {
+            "@id": "https://datasciencehub.net/paper/packaging-research-artefacts-ro-crate"
+          }
+        ]
+      }
+    },
+    {
+      "@id": "#role-reviewer-3",
+      "@type": "Role",
+      "name": "Reviewed by (anonymous)",
+      "additionalType": [
+        {
+          "@id": "http://purl.obolibrary.org/obo/CRO_0000101"
+        }
+      ],
+      "contributor": {
+        "@id": "#reviewer-3"
+      },
+      "@reverse": {
+        "contributor": [
+          {
+            "@id": "./"
+          },
+          {
+            "@id": "https://datasciencehub.net/paper/packaging-research-artefacts-ro-crate"
+          }
+        ]
+      }
+    },
+    {
+      "@id": "#role-0000-0003-0530-4305",
+      "@type": "Role",
+      "name": "Metareviewed by editor Silvio Peroni",
+      "additionalType": [
+        {
+          "@id": "http://purl.obolibrary.org/obo/CRO_0000101"
+        },
+        {
+          "@id": "http://purl.obolibrary.org/obo/CRO_0000104"
+        }
+      ],
+      "contributor": {
+        "@id": "https://orcid.org/0000-0003-0530-4305"
+      },
       "@reverse": {
         "contributor": [
           {
@@ -2242,6 +2376,88 @@
       }
     },
     {
+      "@id": "https://orcid.org/0000-0002-4763-3943",
+      "@type": "Person",
+      "name": "Angelo A.",
+      "@reverse": {
+        "contributor": [
+          {
+            "@id": "#role-0000-0002-4763-3943"
+          }
+        ]
+      }
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-1112-1292",
+      "@type": "Person",
+      "name": "Alessia Bardi",
+      "@reverse": {
+        "contributor": [
+          {
+            "@id": "#role-0000-0002-1112-1292"
+          }
+        ]
+      }
+    },
+    {
+      "@id": "#reviewer-3",
+      "@type": "Person",
+      "name": "(anonymous)",
+      "@reverse": {
+        "contributor": [
+          {
+            "@id": "#role-reviewer-3"
+          }
+        ]
+      }
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-0530-4305",
+      "@type": "Person",
+      "name": "Silvio Peroni",
+      "@reverse": {
+        "contributor": [
+          {
+            "@id": "#role-0000-0003-0530-4305"
+          }
+        ],
+        "editor": [
+          {
+            "@id": "https://datasciencehub.net/paper/packaging-research-artefacts-ro-crate"
+          }
+        ]
+      }
+    },
+    {
+      "@id": "https://datasciencehub.net/paper/packaging-research-artefacts-ro-crate",
+      "type": "Review",
+      "name": "DataScience submission 706-1686: Packaging research artefacts with RO-Crate",
+      "itemReviewed": {
+        "@id": "https://doi.org/10.5281/zenodo.5146228"
+      },
+      "contributor": [
+        {
+          "@id": "#role-0000-0002-4763-3943"
+        },
+        {
+          "@id": "#role-0000-0002-1112-1292"
+        },
+        {
+          "@id": "#role-reviewer-3"
+        }
+      ],
+      "editor": {
+        "@id": "https://orcid.org/0000-0003-0530-4305"
+      },
+      "@reverse": {
+        "review": [
+          {
+            "@id": "./"
+          }
+        ]
+      }
+    },
+    {
       "@id": "https://spdx.org/licenses/Apache-2.0",
       "@type": "CreativeWork",
       "identifier": "Apache-2.0",
@@ -2535,8 +2751,32 @@
       }
     },
     {
+      "@id": "http://purl.org/spar/pso/submitted",
+      "@type": "DefinedTerm",
+      "name": "submitted",
+      "@reverse": {
+        "creativeWorkStatus": [
+          {
+            "@id": "https://doi.org/10.5281/zenodo.5146228"
+          }
+        ]
+      }
+    },
+    {
+      "@id": "http://purl.org/spar/pso/accepted-for-publication",
+      "@type": "DefinedTerm",
+      "name": "accepted for publication",
+      "@reverse": {
+        "creativeWorkStatus": [
+          {
+            "@id": "./"
+          }
+        ]
+      }
+    },
+    {
       "@id": "http://purl.obolibrary.org/obo/CRO_0000003",
-      "@type": "Thing",
+      "@type": "DefinedTerm",
       "name": "figure development role",
       "@reverse": {
         "additionalType": [
@@ -2551,7 +2791,7 @@
     },
     {
       "@id": "http://purl.obolibrary.org/obo/CRO_0000006",
-      "@type": "Thing",
+      "@type": "DefinedTerm",
       "name": "background and literature search role",
       "@reverse": {
         "additionalType": [
@@ -2584,7 +2824,7 @@
     },
     {
       "@id": "http://purl.obolibrary.org/obo/CRO_0000008",
-      "@type": "Thing",
+      "@type": "DefinedTerm",
       "name": "website role",
       "@reverse": {
         "additionalType": [
@@ -2596,12 +2836,12 @@
     },
     {
       "@id": "http://purl.obolibrary.org/obo/CRO_0000014",
-      "@type": "Thing",
+      "@type": "DefinedTerm",
       "name": "technical documentation role"
     },
     {
       "@id": "http://purl.obolibrary.org/obo/CRO_0000038",
-      "@type": "Thing",
+      "@type": "DefinedTerm",
       "name": "metadata role",
       "@reverse": {
         "additionalType": [
@@ -2613,7 +2853,7 @@
     },
     {
       "@id": "http://purl.obolibrary.org/obo/CRO_0000051",
-      "@type": "Thing",
+      "@type": "DefinedTerm",
       "name": "system administrator role",
       "@reverse": {
         "additionalType": [
@@ -2628,7 +2868,7 @@
     },
     {
       "@id": "http://purl.obolibrary.org/obo/CRO_0000073",
-      "@type": "Thing",
+      "@type": "DefinedTerm",
       "name": "standards development role",
       "@reverse": {
         "additionalType": [
@@ -2670,12 +2910,12 @@
     },
     {
       "@id": "http://purl.obolibrary.org/obo/CRO_0000081",
-      "@type": "Thing",
+      "@type": "DefinedTerm",
       "name": "coordination role"
     },
     {
       "@id": "http://purl.obolibrary.org/obo/CRO_0000083",
-      "@type": "Thing",
+      "@type": "DefinedTerm",
       "name": "community engagement role",
       "@reverse": {
         "additionalType": [
@@ -2699,17 +2939,17 @@
     },
     {
       "@id": "http://purl.obolibrary.org/obo/CRO_0000089",
-      "@type": "Thing",
+      "@type": "DefinedTerm",
       "name": "lay summary role"
     },
     {
       "@id": "http://purl.obolibrary.org/obo/CRO_0000091",
-      "@type": "Thing",
+      "@type": "DefinedTerm",
       "name": "technical writing role"
     },
     {
       "@id": "http://purl.obolibrary.org/obo/CRO_0000100",
-      "@type": "Thing",
+      "@type": "DefinedTerm",
       "name": "presenter role",
       "@reverse": {
         "additionalType": [
@@ -2738,8 +2978,41 @@
       }
     },
     {
+      "@id": "http://purl.obolibrary.org/obo/CRO_0000101",
+      "@type": "DefinedTerm",
+      "name": "peer review role",
+      "@reverse": {
+        "additionalType": [
+          {
+            "@id": "#role-0000-0002-4763-3943"
+          },
+          {
+            "@id": "#role-0000-0002-1112-1292"
+          },
+          {
+            "@id": "#role-reviewer-3"
+          },
+          {
+            "@id": "#role-0000-0003-0530-4305"
+          }
+        ]
+      }
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/CRO_0000104",
+      "@type": "DefinedTerm",
+      "name": "acceptor role",
+      "@reverse": {
+        "additionalType": [
+          {
+            "@id": "#role-0000-0003-0530-4305"
+          }
+        ]
+      }
+    },
+    {
       "@id": "http://purl.obolibrary.org/obo/CRO_0000102",
-      "@type": "Thing",
+      "@type": "DefinedTerm",
       "name": "advisory role",
       "@reverse": {
         "additionalType": [
@@ -2760,7 +3033,7 @@
     },
     {
       "@id": "http://purl.obolibrary.org/obo/CRO_0000103",
-      "@type": "Thing",
+      "@type": "DefinedTerm",
       "name": "modifier role",
       "@reverse": {
         "additionalType": [
@@ -2772,7 +3045,7 @@
     },
     {
       "@id": "http://purl.obolibrary.org/obo/CRO_0000105",
-      "@type": "Thing",
+      "@type": "DefinedTerm",
       "name": "submitter role",
       "@reverse": {
         "additionalType": [
@@ -2784,7 +3057,7 @@
     },
     {
       "@id": "http://purl.org/credit/ontology#CREDIT_00000001",
-      "@type": "Thing",
+      "@type": "DefinedTerm",
       "name": "conceptualization role",
       "@reverse": {
         "additionalType": [
@@ -2802,7 +3075,7 @@
     },
     {
       "@id": "http://purl.org/credit/ontology#CREDIT_00000002",
-      "@type": "Thing",
+      "@type": "DefinedTerm",
       "name": "data curation role",
       "@reverse": {
         "additionalType": [
@@ -2814,7 +3087,7 @@
     },
     {
       "@id": "http://purl.org/credit/ontology#CREDIT_00000003",
-      "@type": "Thing",
+      "@type": "DefinedTerm",
       "name": "formal analysis role",
       "@reverse": {
         "additionalType": [
@@ -2826,7 +3099,7 @@
     },
     {
       "@id": "http://purl.org/credit/ontology#CREDIT_00000004",
-      "@type": "Thing",
+      "@type": "DefinedTerm",
       "name": "funding acquisition role",
       "@reverse": {
         "additionalType": [
@@ -2841,7 +3114,7 @@
     },
     {
       "@id": "http://purl.org/credit/ontology#CREDIT_00000005",
-      "@type": "Thing",
+      "@type": "DefinedTerm",
       "name": "investigation role",
       "@reverse": {
         "additionalType": [
@@ -2856,7 +3129,7 @@
     },
     {
       "@id": "http://purl.org/credit/ontology#CREDIT_00000006",
-      "@type": "Thing",
+      "@type": "DefinedTerm",
       "name": "methodology role",
       "@reverse": {
         "additionalType": [
@@ -2904,7 +3177,7 @@
     },
     {
       "@id": "http://purl.org/credit/ontology#CREDIT_00000007",
-      "@type": "Thing",
+      "@type": "DefinedTerm",
       "name": "project administration role",
       "@reverse": {
         "additionalType": [
@@ -2925,7 +3198,7 @@
     },
     {
       "@id": "http://purl.org/credit/ontology#CREDIT_00000009",
-      "@type": "Thing",
+      "@type": "DefinedTerm",
       "name": "software role",
       "@reverse": {
         "additionalType": [
@@ -2967,17 +3240,17 @@
     },
     {
       "@id": "http://purl.org/credit/ontology#CREDIT_00000010",
-      "@type": "Thing",
+      "@type": "DefinedTerm",
       "name": "supervision role"
     },
     {
       "@id": "http://purl.org/credit/ontology#CREDIT_00000011",
-      "@type": "Thing",
+      "@type": "DefinedTerm",
       "name": "validation role"
     },
     {
       "@id": "http://purl.org/credit/ontology#CREDIT_00000012",
-      "@type": "Thing",
+      "@type": "DefinedTerm",
       "name": "visualization role",
       "@reverse": {
         "additionalType": [
@@ -2995,7 +3268,7 @@
     },
     {
       "@id": "http://purl.org/credit/ontology#CREDIT_00000013",
-      "@type": "Thing",
+      "@type": "DefinedTerm",
       "name": "writing original draft role",
       "@reverse": {
         "additionalType": [
@@ -3010,7 +3283,7 @@
     },
     {
       "@id": "http://purl.org/credit/ontology#CREDIT_00000014",
-      "@type": "Thing",
+      "@type": "DefinedTerm",
       "name": "writing review and editing role",
       "@reverse": {
         "additionalType": [
@@ -4164,7 +4437,7 @@ table.table {
             <td style='text-align:left'><span>This is the RO-Crate for the article about RO-Crate, submitted to Data Science. The manuscript is included in HTML and PDF versions. Additionally this crate adds the latest RO-Crate specifications and known RO-Crate implementations.</span></td>
             </tr><tr>
             <th style="text-align:left;" class="prop">datePublished<span>&nbsp;</span><a href="http://schema.org/datePublished">[?]</a></th>
-            <td style='text-align:left'><span>2021-08-13T14:00:00Z</span></td>
+            <td style='text-align:left'><span>2021-10-18T12:00:00Z</span></td>
             </tr><tr>
             <th style="text-align:left;" class="prop">author<span>&nbsp;</span><a href="http://schema.org/author">[?]</a></th>
             <td style='text-align:left'><ul>
@@ -4253,7 +4526,18 @@ An RO-Crate is a structured archive of all the items that contributed to a resea
                         <li><a href="#%23role-0000-0003-2130-0865">Contributions by Stuart Owen</a></li>
                         
                         <li><a href="#%23role-0000-0003-4929-1219">Contributions by Laura Rodríguez-Navas</a></li>
+                        
+                        <li><a href="#%23role-0000-0002-4763-3943">Reviewed by by Angelo A.</a></li>
+                        
+                        <li><a href="#%23role-0000-0002-1112-1292">Reviewed by Alessia Bardi</a></li>
+                        
+                        <li><a href="#%23role-reviewer-3">Reviewed by (anonymous)</a></li>
+                        
+                        <li><a href="#%23role-0000-0003-0530-4305">Metareviewed by editor Silvio Peroni</a></li>
                         </ul></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">creativeWorkStatus<span>&nbsp;</span><a href="http://schema.org/creativeWorkStatus">[?]</a></th>
+            <td style='text-align:left'><a href="#http%3A//purl.org/spar/pso/accepted-for-publication">accepted for publication</a></td>
             </tr><tr>
             <th style="text-align:left;" class="prop">encoding<span>&nbsp;</span><a href="http://schema.org/encoding">[?]</a></th>
             <td style='text-align:left'><ul>
@@ -4277,6 +4561,12 @@ An RO-Crate is a structured archive of all the items that contributed to a resea
             </tr><tr>
             <th style="text-align:left;" class="prop">identifier<span>&nbsp;</span><a href="http://schema.org/identifier">[?]</a></th>
             <td style='text-align:left'><a href="https://doi.org/10.5281/zenodo.5146227">https://doi.org/10.5281/zenodo.5146227</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">isBasedOn<span>&nbsp;</span><a href="http://schema.org/isBasedOn">[?]</a></th>
+            <td style='text-align:left'><a href="#https%3A//doi.org/10.5281/zenodo.5146228">Packaging research artefacts with RO-Crate</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">review<span>&nbsp;</span><a href="http://schema.org/review">[?]</a></th>
+            <td style='text-align:left'><a href="#https%3A//datasciencehub.net/paper/packaging-research-artefacts-ro-crate">DataScience submission 706-1686: Packaging research artefacts with RO-Crate</a></td>
             </tr><tr>
             <th style="text-align:left;" class="prop">keywords<span>&nbsp;</span><a href="http://schema.org/keywords">[?]</a></th>
             <td style='text-align:left'><span>Research Object, Linked Data, Scholarly Communication, Data publishing, Data packaging, FAIR, Metadata, Reproducibility</span></td>
@@ -6040,6 +6330,181 @@ An RO-Crate is a structured archive of all the items that contributed to a resea
         </div>
         <hr/><br/><br/>
            <div>
+            <h3> Reviewed by by Angelo A.</h3>
+            
+            
+            
+            
+        <div id="#role-0000-0002-4763-3943">
+            
+            <table class="table metadata table-striped" >
+                <tbody><tr>
+            <th style="text-align:left;" class="prop">@id</th>
+            <td style='text-align:left'><span>#role-0000-0002-4763-3943</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">name<span>&nbsp;</span><a href="http://schema.org/name">[?]</a></th>
+            <td style='text-align:left'><span>Reviewed by by Angelo A.</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">@type</th>
+            <td style='text-align:left'><span>Role</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">additionalType<span>&nbsp;</span><a href="http://schema.org/additionalType">[?]</a></th>
+            <td style='text-align:left'><a href="#http%3A//purl.obolibrary.org/obo/CRO_0000101">peer review role</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">contributor<span>&nbsp;</span><a href="http://schema.org/contributor">[?]</a></th>
+            <td style='text-align:left'><a href="#https%3A//orcid.org/0000-0002-4763-3943">Angelo A.</a></td>
+            </tr><tr><th colspan="2" style="text-align:center">Items that reference this one</th><tr><tr>
+            <th style="text-align:left;" class="prop">contributor<span>&nbsp;</span><a href="http://schema.org/contributor">[?]</a></th>
+            <td style='text-align:left'><ul>
+                        <li><a href="#./">Packaging research artefacts with RO-Crate</a></li>
+                        
+                        <li><a href="#https%3A//datasciencehub.net/paper/packaging-research-artefacts-ro-crate">DataScience submission 706-1686: Packaging research artefacts with RO-Crate</a></li>
+                        </ul></td>
+            </tr></tbody>
+            </table>
+        </div>
+
+        </div>
+        <hr/><br/><br/>
+           <div>
+            <h3> Reviewed by Alessia Bardi</h3>
+            
+            
+            
+            
+        <div id="#role-0000-0002-1112-1292">
+            
+            <table class="table metadata table-striped" >
+                <tbody><tr>
+            <th style="text-align:left;" class="prop">@id</th>
+            <td style='text-align:left'><span>#role-0000-0002-1112-1292</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">name<span>&nbsp;</span><a href="http://schema.org/name">[?]</a></th>
+            <td style='text-align:left'><span>Reviewed by Alessia Bardi</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">@type</th>
+            <td style='text-align:left'><span>Role</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">additionalType<span>&nbsp;</span><a href="http://schema.org/additionalType">[?]</a></th>
+            <td style='text-align:left'><a href="#http%3A//purl.obolibrary.org/obo/CRO_0000101">peer review role</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">contributor<span>&nbsp;</span><a href="http://schema.org/contributor">[?]</a></th>
+            <td style='text-align:left'><a href="#https%3A//orcid.org/0000-0002-1112-1292">Alessia Bardi</a></td>
+            </tr><tr><th colspan="2" style="text-align:center">Items that reference this one</th><tr><tr>
+            <th style="text-align:left;" class="prop">contributor<span>&nbsp;</span><a href="http://schema.org/contributor">[?]</a></th>
+            <td style='text-align:left'><ul>
+                        <li><a href="#./">Packaging research artefacts with RO-Crate</a></li>
+                        
+                        <li><a href="#https%3A//datasciencehub.net/paper/packaging-research-artefacts-ro-crate">DataScience submission 706-1686: Packaging research artefacts with RO-Crate</a></li>
+                        </ul></td>
+            </tr></tbody>
+            </table>
+        </div>
+
+        </div>
+        <hr/><br/><br/>
+           <div>
+            <h3> Reviewed by (anonymous)</h3>
+            
+            
+            
+            
+        <div id="#role-reviewer-3">
+            
+            <table class="table metadata table-striped" >
+                <tbody><tr>
+            <th style="text-align:left;" class="prop">@id</th>
+            <td style='text-align:left'><span>#role-reviewer-3</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">name<span>&nbsp;</span><a href="http://schema.org/name">[?]</a></th>
+            <td style='text-align:left'><span>Reviewed by (anonymous)</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">@type</th>
+            <td style='text-align:left'><span>Role</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">additionalType<span>&nbsp;</span><a href="http://schema.org/additionalType">[?]</a></th>
+            <td style='text-align:left'><a href="#http%3A//purl.obolibrary.org/obo/CRO_0000101">peer review role</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">contributor<span>&nbsp;</span><a href="http://schema.org/contributor">[?]</a></th>
+            <td style='text-align:left'><a href="#%23reviewer-3">(anonymous)</a></td>
+            </tr><tr><th colspan="2" style="text-align:center">Items that reference this one</th><tr><tr>
+            <th style="text-align:left;" class="prop">contributor<span>&nbsp;</span><a href="http://schema.org/contributor">[?]</a></th>
+            <td style='text-align:left'><ul>
+                        <li><a href="#./">Packaging research artefacts with RO-Crate</a></li>
+                        
+                        <li><a href="#https%3A//datasciencehub.net/paper/packaging-research-artefacts-ro-crate">DataScience submission 706-1686: Packaging research artefacts with RO-Crate</a></li>
+                        </ul></td>
+            </tr></tbody>
+            </table>
+        </div>
+
+        </div>
+        <hr/><br/><br/>
+           <div>
+            <h3> Metareviewed by editor Silvio Peroni</h3>
+            
+            
+            
+            
+        <div id="#role-0000-0003-0530-4305">
+            
+            <table class="table metadata table-striped" >
+                <tbody><tr>
+            <th style="text-align:left;" class="prop">@id</th>
+            <td style='text-align:left'><span>#role-0000-0003-0530-4305</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">name<span>&nbsp;</span><a href="http://schema.org/name">[?]</a></th>
+            <td style='text-align:left'><span>Metareviewed by editor Silvio Peroni</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">@type</th>
+            <td style='text-align:left'><span>Role</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">additionalType<span>&nbsp;</span><a href="http://schema.org/additionalType">[?]</a></th>
+            <td style='text-align:left'><ul>
+                        <li><a href="#http%3A//purl.obolibrary.org/obo/CRO_0000101">peer review role</a></li>
+                        
+                        <li><a href="#http%3A//purl.obolibrary.org/obo/CRO_0000104">acceptor role</a></li>
+                        </ul></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">contributor<span>&nbsp;</span><a href="http://schema.org/contributor">[?]</a></th>
+            <td style='text-align:left'><a href="#https%3A//orcid.org/0000-0003-0530-4305">Silvio Peroni</a></td>
+            </tr><tr><th colspan="2" style="text-align:center">Items that reference this one</th><tr><tr>
+            <th style="text-align:left;" class="prop">contributor<span>&nbsp;</span><a href="http://schema.org/contributor">[?]</a></th>
+            <td style='text-align:left'><a href="#./">Packaging research artefacts with RO-Crate</a></td>
+            </tr></tbody>
+            </table>
+        </div>
+
+        </div>
+        <hr/><br/><br/>
+           <div>
+            <h3><a href="http://purl.org/spar/pso/accepted-for-publication">Go to: </a> accepted for publication</h3>
+            
+            
+            
+            
+        <div id="http://purl.org/spar/pso/accepted-for-publication">
+            
+            <table class="table metadata table-striped" >
+                <tbody><tr>
+            <th style="text-align:left;" class="prop">@id</th>
+            <td style='text-align:left'><a href="http://purl.org/spar/pso/accepted-for-publication">http://purl.org/spar/pso/accepted-for-publication</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">name<span>&nbsp;</span><a href="http://schema.org/name">[?]</a></th>
+            <td style='text-align:left'><span>accepted for publication</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">@type</th>
+            <td style='text-align:left'><span>DefinedTerm</span></td>
+            </tr><tr><th colspan="2" style="text-align:center">Items that reference this one</th><tr><tr>
+            <th style="text-align:left;" class="prop">creativeWorkStatus<span>&nbsp;</span><a href="http://schema.org/creativeWorkStatus">[?]</a></th>
+            <td style='text-align:left'><a href="#./">Packaging research artefacts with RO-Crate</a></td>
+            </tr></tbody>
+            </table>
+        </div>
+
+        </div>
+        <hr/><br/><br/>
+           <div>
             <h3><a href="manuscript.html">⬇️ Download: </a> Packaging research artefacts with RO-Crate (HTML)</h3>
             
             <iframe src='manuscript.html' width='100%' height='500'></iframe>
@@ -6410,6 +6875,84 @@ An RO-Crate is a structured archive of all the items that contributed to a resea
             <td style='text-align:left'><a href="https://www.researchobject.org/ro-crate/">https://www.researchobject.org/ro-crate/</a></td>
             </tr><tr><th colspan="2" style="text-align:center">Items that reference this one</th><tr><tr>
             <th style="text-align:left;" class="prop">hasPart<span>&nbsp;</span><a href="http://schema.org/hasPart">[?]</a></th>
+            <td style='text-align:left'><a href="#./">Packaging research artefacts with RO-Crate</a></td>
+            </tr></tbody>
+            </table>
+        </div>
+
+        </div>
+        <hr/><br/><br/>
+           <div>
+            <h3><a href="https://doi.org/10.5281/zenodo.5146228">Go to: </a> Packaging research artefacts with RO-Crate</h3>
+            
+            
+            
+            
+        <div id="https://doi.org/10.5281/zenodo.5146228">
+            
+            <table class="table metadata table-striped" >
+                <tbody><tr>
+            <th style="text-align:left;" class="prop">@id</th>
+            <td style='text-align:left'><a href="https://doi.org/10.5281/zenodo.5146228">https://doi.org/10.5281/zenodo.5146228</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">name<span>&nbsp;</span><a href="http://schema.org/name">[?]</a></th>
+            <td style='text-align:left'><span>Packaging research artefacts with RO-Crate</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">@type</th>
+            <td style='text-align:left'><span>ScholarlyArticle</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">datePublished<span>&nbsp;</span><a href="http://schema.org/datePublished">[?]</a></th>
+            <td style='text-align:left'><span>2021-08-13T14:00:00Z</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">creativeWorkStatus<span>&nbsp;</span><a href="http://schema.org/creativeWorkStatus">[?]</a></th>
+            <td style='text-align:left'><a href="#http%3A//purl.org/spar/pso/submitted">submitted</a></td>
+            </tr><tr><th colspan="2" style="text-align:center">Items that reference this one</th><tr><tr>
+            <th style="text-align:left;" class="prop">isBasedOn<span>&nbsp;</span><a href="http://schema.org/isBasedOn">[?]</a></th>
+            <td style='text-align:left'><a href="#./">Packaging research artefacts with RO-Crate</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">itemReviewed<span>&nbsp;</span><a href="http://schema.org/itemReviewed">[?]</a></th>
+            <td style='text-align:left'><a href="#https%3A//datasciencehub.net/paper/packaging-research-artefacts-ro-crate">DataScience submission 706-1686: Packaging research artefacts with RO-Crate</a></td>
+            </tr></tbody>
+            </table>
+        </div>
+
+        </div>
+        <hr/><br/><br/>
+           <div>
+            <h3><a href="https://datasciencehub.net/paper/packaging-research-artefacts-ro-crate">Go to: </a> DataScience submission 706-1686: Packaging research artefacts with RO-Crate</h3>
+            
+            
+            
+            
+        <div id="https://datasciencehub.net/paper/packaging-research-artefacts-ro-crate">
+            
+            <table class="table metadata table-striped" >
+                <tbody><tr>
+            <th style="text-align:left;" class="prop">@id</th>
+            <td style='text-align:left'><a href="https://datasciencehub.net/paper/packaging-research-artefacts-ro-crate">https://datasciencehub.net/paper/packaging-research-artefacts-ro-crate</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">name<span>&nbsp;</span><a href="http://schema.org/name">[?]</a></th>
+            <td style='text-align:left'><span>DataScience submission 706-1686: Packaging research artefacts with RO-Crate</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">type</th>
+            <td style='text-align:left'><span>Review</span></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">itemReviewed<span>&nbsp;</span><a href="http://schema.org/itemReviewed">[?]</a></th>
+            <td style='text-align:left'><a href="#https%3A//doi.org/10.5281/zenodo.5146228">Packaging research artefacts with RO-Crate</a></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">contributor<span>&nbsp;</span><a href="http://schema.org/contributor">[?]</a></th>
+            <td style='text-align:left'><ul>
+                        <li><a href="#%23role-0000-0002-4763-3943">Reviewed by by Angelo A.</a></li>
+                        
+                        <li><a href="#%23role-0000-0002-1112-1292">Reviewed by Alessia Bardi</a></li>
+                        
+                        <li><a href="#%23role-reviewer-3">Reviewed by (anonymous)</a></li>
+                        </ul></td>
+            </tr><tr>
+            <th style="text-align:left;" class="prop">editor<span>&nbsp;</span><a href="http://schema.org/editor">[?]</a></th>
+            <td style='text-align:left'><a href="#https%3A//orcid.org/0000-0003-0530-4305">Silvio Peroni</a></td>
+            </tr><tr><th colspan="2" style="text-align:center">Items that reference this one</th><tr><tr>
+            <th style="text-align:left;" class="prop">review<span>&nbsp;</span><a href="http://schema.org/review">[?]</a></th>
             <td style='text-align:left'><a href="#./">Packaging research artefacts with RO-Crate</a></td>
             </tr></tbody>
             </table>
