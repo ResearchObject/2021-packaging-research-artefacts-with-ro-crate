@@ -16,26 +16,35 @@
         "author": {"@id": "#alice"},
         "publisher": {"@id": "https://www.researchobject.org/ro-crate/community"},
         "license": {"@id": "https://spdx.org/licenses/CC-BY-4.0"},
+        "keywords": "example, Catalina Park, survey",
+        "funder": {"@id": "https://library.brown.edu/bookplates/fund.php?account=EN464082"},
         "datePublished": "2021-11-02T16:04:43Z",
         "citation": {"@id": "https://datasciencehub.net/paper/packaging-research-artefacts-ro-crate"},
+        "subjectOf": {"@id": "https://stain.github.io/ro-crate-paper/#cb1"},
         "hasPart": [
           {"@id": "survey-responses-2019.csv"},
           {"@id": "https://example.com/pics/5707039334816454031_o.jpg"}
         ]
       },
       {
+        "@id": "https://stain.github.io/ro-crate-paper/#cb1",
+        "@type": "WebPageElement",
+        "name": "Listing 1: Simplified RO-Crate metadata file"
+      },
+      {
         "@id": "https://datasciencehub.net/paper/packaging-research-artefacts-ro-crate",
         "@type": "ScholarlyArticle",
         "name": "Packaging research artefacts with RO-Crate",
         "journal": "Data Science",
-        "issn": "2451-8492"
+        "issn": "2451-8492",
+        "identifier": "https://doi.org/10.5281/zenodo.5146228"
       },
       { "@id": "survey-responses-2019.csv",
         "@type": "File",
         "encodingFormat": "text/csv",
         "contentSize": "66",
         "name": "Survey responses (2019)",
-        "description": "A fictional CSV file of survey responses, asking participants if they liked the picture",
+        "description": "A fictional CSV file of survey responses, asking participants if they liked the photo",
         "about": {"@id": "https://example.com/pics/5707039334816454031_o.jpg"},
         "author": {"@id": "#alice"}
       },
@@ -51,13 +60,18 @@
       },
       { "@id": "#alice",
         "@type": "Person",
-        "name": "Alice"
+        "name": "Alice",
+        "affiliation": "Wonderland"
       },
       { "@id": "https://orcid.org/0000-0002-1825-0097",
         "@type": "Person",
         "name": "Josiah Carberry",
         "affiliation": {"@id": "https://ror.org/05gq02987"}
       },
+      {
+        "@id": "https://library.brown.edu/bookplates/fund.php?account=EN464082",
+        "@type": "FundingScheme",
+        "name": "Josiah S. Carberry Fund"},
       {
         "@id": "https://www.researchobject.org/ro-crate/community",
         "@type": "Organization",
