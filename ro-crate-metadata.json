@@ -142,6 +142,9 @@
           "@id": "#role-0000-0003-4929-1219"
         },
         {
+          "@id": "#role-0000-0003-3156-2105"
+        },
+        {
           "@id": "#role-0000-0002-4763-3943"
         },
         {
@@ -177,6 +180,9 @@
           "@id": "manuscript.pdf"
         },
         {
+          "@id": "response.html"
+        },
+        {
           "@id": "software/"
         },
         {
@@ -199,7 +205,7 @@
       "publisher": {
         "@id": "https://www.researchobject.org/"
       },
-      "datePublished": "2021-10-06T00:00:00Z",
+      "datePublished": "2021-11-26T17:39:23+00:00Z",
       "url": "https://www.researchobject.org/2021-packaging-research-artefacts-with-ro-crate/"
     },
     {
@@ -757,6 +763,28 @@
       "name": "Contributions by Laura Rodríguez-Navas"
     },
     {
+      "@id": "#role-0000-0003-3156-2105",
+      "@type": "Role",
+      "additionalType": [
+        {
+          "@id": "http://purl.org/credit/ontology#CREDIT_00000009"
+        },
+        {
+          "@id": "http://purl.org/credit/ontology#CREDIT_00000014"
+        },
+        {
+          "@id": "http://purl.obolibrary.org/obo/CRO_0000103"
+        },
+        {
+          "@id": "http://purl.obolibrary.org/obo/CRO_0000073"
+        }
+      ],
+      "contributor": {
+        "@id": "https://orcid.org/0000-0003-3156-2105"
+      },
+      "name": "Contributions by Alan R Williams"
+    },
+    {
       "@id": "#role-community",
       "@type": "Role",
       "additionalType": [
@@ -878,6 +906,48 @@
       "name": "Packaging research artefacts with RO-Crate (HTML)",
       "url": "https://stain.github.io/ro-crate-paper/v/543870d65a7c891d20497ff87f19ebbbc716c4e1/"
     },
+    {
+      "@id": "response.html",
+      "@type": ["File"],
+      "author": [
+        {
+          "@id": "https://orcid.org/0000-0001-9842-9718"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-3545-944X"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-1304-1939"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-3986-0510"
+        },
+        {
+          "@id": "https://orcid.org/0000-0001-6565-5145"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-4806-5140"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-0454-7145"
+        },
+        {
+          "@id": "https://orcid.org/0000-0001-8271-5429"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-0183-6910"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-1219-2137"
+        }
+      ],
+      "datePublished": "2021-11-26T17:39:23+00:00Z",
+      "about": {
+        "@id": "https://datasciencehub.net/paper/packaging-research-artefacts-ro-crate"
+      },
+      "name": "Response to peer review, Data Science submission 706-1686",
+      "url": "https://docs.google.com/document/d/1o6sHXzpDYpJUtkHRsEnQMdLD2vU5BLwRa1blgcjHGGE/edit#"
+    },    
     {
       "@id": "manuscript.pdf",
       "@type": ["File", "ScholarlyArticle"],
