@@ -209,6 +209,7 @@
         "@id": "https://www.researchobject.org/"
       },
       "datePublished": "2021-11-27T03:15:00Z",
+      "sameAs": {"@id": "https://w3id.org/ro/doi/10.5281/zenodo.5146227"},
       "url": "https://w3id.org/ro/doi/10.5281/zenodo.5146227"
     },
     {
