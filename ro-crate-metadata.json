@@ -1,5 +1,8 @@
 {
-  "@context": "https://w3id.org/ro/crate/1.1/context",
+  "@context": [
+    "https://w3id.org/ro/crate/1.1/context",
+    {"@base": "https://www.researchobject.org/2021-packaging-research-artefacts-with-ro-crate/manuscript.html"}
+  ],
   "@graph": [
     {
       "@id": "ro-crate-metadata.json",
@@ -183,6 +186,9 @@
           "@id": "response.pdf"
         },
         {
+          "@id": "listing1/"
+        },
+        {
           "@id": "software/"
         },
         {
@@ -200,15 +206,15 @@
       },
       "mentions": [
         {"@id": "https://www.researchobject.org/ro-crate/community"},
-        {"@id": "https://github.com/stain/ro-crate-paper/actions/runs/1508333996"},
-        {"@id": "https://github.com/stain/ro-crate-paper/actions/runs/1508333994"},
+        {"@id": "https://github.com/stain/ro-crate-paper/actions/runs/1521365962"},
+        {"@id": "https://github.com/stain/ro-crate-paper/actions/runs/1521315094"},
         {"@id": "#response"}
       ],
       "name": "Packaging research artefacts with RO-Crate",
       "publisher": {
         "@id": "https://www.researchobject.org/"
       },
-      "datePublished": "2021-11-27T03:15:00Z",
+      "datePublished": "2021-11-30T14:35:00Z",
       "sameAs": {"@id": "https://w3id.org/ro/doi/10.5281/zenodo.5146227"},
       "url": "https://w3id.org/ro/doi/10.5281/zenodo.5146227"
     },
@@ -908,8 +914,8 @@
       "description": "HTML manuscript of the RO-Crate article, created by Manubot",
       "abstract": "An increasing number of researchers support reproducibility by including pointers to and descriptions of datasets, software and methods in their publications. However, scientific articles may be ambiguous, incomplete and difficult to process by automated systems. In this paper we introduce RO-Crate, an open, community-driven, and lightweight approach to packaging research artefacts along with their metadata in a machine readable manner. RO-Crate is based on Schema.org annotations in JSON-LD, aiming to establish best practices to formally describe metadata in an accessible and practical way for their use in a wide variety of situations.\n\nAn RO-Crate is a structured archive of all the items that contributed to a research outcome, including their identifiers, provenance, relations and annotations. As a general purpose packaging approach for data and their metadata, RO-Crate is used across multiple areas, including bioinformatics, digital humanities and regulatory sciences. By applying “just enough” Linked Data standards, RO-Crate simplifies the process of making research outputs FAIR while also contributes to enhancing research reproducibility.",
       "name": "Packaging research artefacts with RO-Crate (HTML)",
-      "isBasedOn": {"@id": "https://github.com/stain/ro-crate-paper/tree/900036b8665d4a290544ddfb7fa9e6c97945bb17"},
-      "url": "https://stain.github.io/ro-crate-paper/v/900036b8665d4a290544ddfb7fa9e6c97945bb17/"
+      "isBasedOn": {"@id": "https://github.com/stain/ro-crate-paper/tree/b6a5208c1283dc55077a658faaa993421763ffb1"},
+      "url": "https://stain.github.io/ro-crate-paper/v/b6a5208c1283dc55077a658faaa993421763ffb1/"
     },
     {
       "@id": "response.pdf",
@@ -947,7 +953,7 @@
           "@id": "https://orcid.org/0000-0003-1219-2137"
         }
       ],
-      "datePublished": "2021-11-26T17:39:23+00:00Z",
+      "datePublished": "2021-11-27T02:05:00Z",
       "about": {
         "@id": "https://datasciencehub.net/paper/packaging-research-artefacts-ro-crate"
       },
@@ -1010,7 +1016,7 @@
       "abstract": "An increasing number of researchers support reproducibility by including pointers to and descriptions of datasets, software and methods in their publications. However, scientific articles may be ambiguous, incomplete and difficult to process by automated systems. In this paper we introduce RO-Crate, an open, community-driven, and lightweight approach to packaging research artefacts along with their metadata in a machine readable manner. RO-Crate is based on Schema.org annotations in JSON-LD, aiming to establish best practices to formally describe metadata in an accessible and practical way for their use in a wide variety of situations.\n\nAn RO-Crate is a structured archive of all the items that contributed to a research outcome, including their identifiers, provenance, relations and annotations. As a general purpose packaging approach for data and their metadata, RO-Crate is used across multiple areas, including bioinformatics, digital humanities and regulatory sciences. By applying “just enough” Linked Data standards, RO-Crate simplifies the process of making research outputs FAIR while also contributes to enhancing research reproducibility.",
       "description": "PDF manuscript of the RO-Crate article, created by Texlive",
       "name": "Packaging research artefacts with RO-Crate (PDF)",
-      "isBasedOn": {"@id": "https://github.com/stain/ro-crate-paper/tree/900036b8665d4a290544ddfb7fa9e6c97945bb17"}
+      "isBasedOn": {"@id": "https://github.com/stain/ro-crate-paper/tree/b6a5208c1283dc55077a658faaa993421763ffb1"}
     },
     {
       "@id": "https://orcid.org/0000-0001-5383-6993",
@@ -2013,6 +2019,40 @@
       "url": "https://github.com/researchobject/ro-crate-py/"
     },
     {
+      "@id": "listing1/",
+      "@type": "Dataset",
+      "name": "A simplified RO-Crate (Listing 1)",
+      "description": "This example crate expands Listing 1 in the paper Packaging research artefacts with RO-Crate",
+      "isBasedOn": {
+        "@id": "manuscript.html#cb1"
+      },
+      "subjectOf": [
+        {"@id": "listing1/ro-crate-metadata.json"},
+        {"@id": "listing1/ro-crate-preview.html"}
+      ]
+    },
+    {
+      "@id": "listing1/ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "name": "RO-Crate Metadata File for listing1",
+      "encodingFormat": "appliation/json",
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.1"
+      }
+    },
+    {
+      "@id": "listing1/ro-crate-preview.html",
+      "@type": "WebPage",
+      "name": "RO-Crate HTML preview for listing1",
+      "encodingFormat": "text/html"
+    },
+    {
+      "@id": "manuscript.html#cb1",
+      "@type": "WebPageElement",
+      "name": "Listing 1: Simplified RO-Crate metadata file",
+      "isPartOf": "manuscript.html"
+    },
+    {
       "@id": "software/",
       "@type": "Dataset",
       "description": "Applications and libraries implementing RO-Crate, targeting different types of users across multiple programming languages. creativeWorkStatus is indicative as assessed by this work (Alpha < Beta < Release Candidate (RC) < Release)",
@@ -2429,34 +2469,34 @@
       "name": "Oliver Kopp"
     },    
     {
-      "@id": "https://github.com/stain/ro-crate-paper/actions/runs/1508333996",
+      "@id": "https://github.com/stain/ro-crate-paper/actions/runs/1521365962",
       "@type": "CreateAction",
       "name": "LaTeX GitHub action built PDF",
       "description": "make LATEXMK=latexmk",
-      "startTime": "2021-11-26T16:41:00Z",
-      "endTime": "2021-11-26T16:43:42Z",
+      "startTime": "2021-11-30T14:32:00Z",
+      "endTime": "2021-11-30T14:36:11Z",
       "instrument": {
         "@id": "https://hub.docker.com/layers/danteev/texlive/2021-D/images/sha256-b3a437ebef34a03d39e0cba86ae4c7a8d564a412bc6cb3415df680239cbc2b4c"
       },
       "object": {
-        "@id": "https://github.com/stain/ro-crate-paper/tree/900036b8665d4a290544ddfb7fa9e6c97945bb17"
+        "@id": "https://github.com/stain/ro-crate-paper/tree/b6a5208c1283dc55077a658faaa993421763ffb1"
       },
       "result": {
         "@id": "manuscript.pdf"
       }
     },
     {
-      "@id": "https://github.com/stain/ro-crate-paper/actions/runs/1508333994",
+      "@id": "https://github.com/stain/ro-crate-paper/actions/runs/1521315094",
       "@type": "CreateAction",
       "name": "Manubot GitHub action built HTML",
       "description": "ci/deploy.sh",
-      "startTime": "2021-11-27T02:14:00Z",
-      "endTime": "2021-11-27T02:20:32Z",
+      "startTime": "2021-11-30T14:20:00Z",
+      "endTime": "2021-11-30T14:26:48Z",
       "instrument": {
         "@id": "https://github.com/manubot/rootstock"
       },
       "object": {
-        "@id": "https://github.com/stain/ro-crate-paper/tree/900036b8665d4a290544ddfb7fa9e6c97945bb17"
+        "@id": "https://github.com/stain/ro-crate-paper/tree/b6a5208c1283dc55077a658faaa993421763ffb1"
       },
       "result": {
         "@id": "manuscript.html"
@@ -2469,18 +2509,18 @@
       "startTime": "2021-10-04T13:44:00Z",
       "endTime": "2021-11-27T02:05:00Z",
       "object": {
-        "@id": "https://github.com/stain/ro-crate-paper/tree/900036b8665d4a290544ddfb7fa9e6c97945bb17"
+        "@id": "https://github.com/stain/ro-crate-paper/tree/b6a5208c1283dc55077a658faaa993421763ffb1"
       },
       "resultComment": {
         "@id": "response.pdf"
       }
     },
     {
-      "@id": "https://github.com/stain/ro-crate-paper/tree/900036b8665d4a290544ddfb7fa9e6c97945bb17",
+      "@id": "https://github.com/stain/ro-crate-paper/tree/b6a5208c1283dc55077a658faaa993421763ffb1",
       "@type": "Dataset",
       "name": "GitHub markdown for manuscript: Packaging research artefacts with RO-Crate",
-      "url": "https://stain.github.io/ro-crate-paper/v/900036b8665d4a290544ddfb7fa9e6c97945bb17/",
-      "version": "900036b8665d4a290544ddfb7fa9e6c97945bb17"
+      "url": "https://github.com/stain/ro-crate-paper/releases/tag/revised-2021-11-30",
+      "version": "revised-2021-11-30"
     }
   ]
 }

@@ -20,16 +20,17 @@
         "funder": {"@id": "https://library.brown.edu/bookplates/fund.php?account=EN464082"},
         "datePublished": "2021-11-02T16:04:43Z",
         "citation": {"@id": "https://datasciencehub.net/paper/packaging-research-artefacts-ro-crate"},
-        "subjectOf": {"@id": "https://stain.github.io/ro-crate-paper/#cb1"},
+        "subjectOf": {"@id": "https://www.researchobject.org/2021-packaging-research-artefacts-with-ro-crate/manuscript.html#cb1"},
         "hasPart": [
           {"@id": "survey-responses-2019.csv"},
           {"@id": "https://example.com/pics/5707039334816454031_o.jpg"}
         ]
       },
       {
-        "@id": "https://stain.github.io/ro-crate-paper/#cb1",
+        "@id": "https://www.researchobject.org/2021-packaging-research-artefacts-with-ro-crate/manuscript.html#cb1",
         "@type": "WebPageElement",
-        "name": "Listing 1: Simplified RO-Crate metadata file"
+        "name": "Listing 1: Simplified RO-Crate metadata file",
+        "isPartOf": "https://datasciencehub.net/paper/packaging-research-artefacts-ro-crate"
       },
       {
         "@id": "https://datasciencehub.net/paper/packaging-research-artefacts-ro-crate",
@@ -37,7 +38,7 @@
         "name": "Packaging research artefacts with RO-Crate",
         "journal": "Data Science",
         "issn": "2451-8492",
-        "identifier": "https://doi.org/10.5281/zenodo.5146228"
+        "identifier": "https://doi.org/10.5281/zenodo.5146227"
       },
       { "@id": "survey-responses-2019.csv",
         "@type": "File",
