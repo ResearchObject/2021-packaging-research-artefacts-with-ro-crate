@@ -199,6 +199,9 @@
       "isBasedOn": {
         "@id": "https://doi.org/10.5281/zenodo.5744421"
       },
+      "mainPart": {
+        "@id": "https://doi.org/10.3233/DS-210053"
+      },
       "review": {"@id": "https://datasciencehub.net/paper/packaging-research-artefacts-ro-crate"},
       "keywords": "Research Object, Linked Data, Scholarly Communication, Data publishing, Data packaging, FAIR, Metadata, Reproducibility",
       "license": {
@@ -206,8 +209,8 @@
       },
       "mentions": [
         {"@id": "https://www.researchobject.org/ro-crate/community"},
-        {"@id": "https://github.com/stain/ro-crate-paper/actions/runs/1521365962"},
-        {"@id": "https://github.com/stain/ro-crate-paper/actions/runs/1521315094"},
+        {"@id": "https://github.com/stain/ro-crate-paper/actions/runs/1671704143"},
+        {"@id": "https://github.com/stain/ro-crate-paper/actions/runs/1671704144"},
         {"@id": "#response"}
       ],
       "name": "Packaging research artefacts with RO-Crate",
@@ -222,10 +225,11 @@
       "@id": "https://doi.org/10.5281/zenodo.5146228",
       "@type": ["ScholarlyArticle", "Dataset"],
       "name": "Packaging research artefacts with RO-Crate",
-      "datePublished": "2021-08-13T14:00:00Z",
+      "datePublished": "2021-11-30T15:22:00Z",
       "creativeWorkStatus": {
         "@id": "http://purl.org/spar/pso/submitted"
-      }
+      },
+      "url": "https://arxiv.org/abs/2108.06503v1"
     },
     {
       "@id": "https://doi.org/10.5281/zenodo.5744421",
@@ -237,7 +241,8 @@
       },
       "creativeWorkStatus": {
         "@id": "http://purl.org/spar/pso/accepted"
-      }
+      },
+      "url": "https://arxiv.org/abs/2108.06503v2"
     },
     {
       "@id": "https://doi.org/10.3233/DS-210053",
