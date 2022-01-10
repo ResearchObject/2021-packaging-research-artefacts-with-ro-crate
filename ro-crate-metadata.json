@@ -914,8 +914,8 @@
       "description": "HTML manuscript of the RO-Crate article, created by Manubot",
       "abstract": "An increasing number of researchers support reproducibility by including pointers to and descriptions of datasets, software and methods in their publications. However, scientific articles may be ambiguous, incomplete and difficult to process by automated systems. In this paper we introduce RO-Crate, an open, community-driven, and lightweight approach to packaging research artefacts along with their metadata in a machine readable manner. RO-Crate is based on Schema.org annotations in JSON-LD, aiming to establish best practices to formally describe metadata in an accessible and practical way for their use in a wide variety of situations.\n\nAn RO-Crate is a structured archive of all the items that contributed to a research outcome, including their identifiers, provenance, relations and annotations. As a general purpose packaging approach for data and their metadata, RO-Crate is used across multiple areas, including bioinformatics, digital humanities and regulatory sciences. By applying “just enough” Linked Data standards, RO-Crate simplifies the process of making research outputs FAIR while also contributes to enhancing research reproducibility.",
       "name": "Packaging research artefacts with RO-Crate (HTML)",
-      "isBasedOn": {"@id": "https://github.com/stain/ro-crate-paper/tree/b6a5208c1283dc55077a658faaa993421763ffb1"},
-      "url": "https://stain.github.io/ro-crate-paper/v/b6a5208c1283dc55077a658faaa993421763ffb1/"
+      "isBasedOn": {"@id": "https://github.com/stain/ro-crate-paper/tree/4f1ce872ac51f6149e8128deddd32d0582d74015"},
+      "url": "https://stain.github.io/ro-crate-paper/v/4f1ce872ac51f6149e8128deddd32d0582d74015/"
     },
     {
       "@id": "response.pdf",
@@ -1016,7 +1016,7 @@
       "abstract": "An increasing number of researchers support reproducibility by including pointers to and descriptions of datasets, software and methods in their publications. However, scientific articles may be ambiguous, incomplete and difficult to process by automated systems. In this paper we introduce RO-Crate, an open, community-driven, and lightweight approach to packaging research artefacts along with their metadata in a machine readable manner. RO-Crate is based on Schema.org annotations in JSON-LD, aiming to establish best practices to formally describe metadata in an accessible and practical way for their use in a wide variety of situations.\n\nAn RO-Crate is a structured archive of all the items that contributed to a research outcome, including their identifiers, provenance, relations and annotations. As a general purpose packaging approach for data and their metadata, RO-Crate is used across multiple areas, including bioinformatics, digital humanities and regulatory sciences. By applying “just enough” Linked Data standards, RO-Crate simplifies the process of making research outputs FAIR while also contributes to enhancing research reproducibility.",
       "description": "PDF manuscript of the RO-Crate article, created by Texlive",
       "name": "Packaging research artefacts with RO-Crate (PDF)",
-      "isBasedOn": {"@id": "https://github.com/stain/ro-crate-paper/tree/b6a5208c1283dc55077a658faaa993421763ffb1"}
+      "isBasedOn": {"@id": "https://github.com/stain/ro-crate-paper/tree/4f1ce872ac51f6149e8128deddd32d0582d74015"}
     },
     {
       "@id": "https://orcid.org/0000-0001-5383-6993",
@@ -2469,34 +2469,34 @@
       "name": "Oliver Kopp"
     },    
     {
-      "@id": "https://github.com/stain/ro-crate-paper/actions/runs/1521365962",
+      "@id": "https://github.com/stain/ro-crate-paper/actions/runs/1671704144",
       "@type": "CreateAction",
       "name": "LaTeX GitHub action built PDF",
       "description": "make LATEXMK=latexmk",
-      "startTime": "2021-11-30T14:32:00Z",
-      "endTime": "2021-11-30T14:36:11Z",
+      "startTime": "2022-01-08T16:19:22Z",
+      "endTime": "2022-01-08T16:21:12Z",
       "instrument": {
         "@id": "https://hub.docker.com/layers/danteev/texlive/2021-D/images/sha256-b3a437ebef34a03d39e0cba86ae4c7a8d564a412bc6cb3415df680239cbc2b4c"
       },
       "object": {
-        "@id": "https://github.com/stain/ro-crate-paper/tree/b6a5208c1283dc55077a658faaa993421763ffb1"
+        "@id": "https://github.com/stain/ro-crate-paper/tree/4f1ce872ac51f6149e8128deddd32d0582d74015"
       },
       "result": {
         "@id": "manuscript.pdf"
       }
     },
     {
-      "@id": "https://github.com/stain/ro-crate-paper/actions/runs/1521315094",
+      "@id": "https://github.com/stain/ro-crate-paper/actions/runs/1671704143",
       "@type": "CreateAction",
       "name": "Manubot GitHub action built HTML",
       "description": "ci/deploy.sh",
-      "startTime": "2021-11-30T14:20:00Z",
-      "endTime": "2021-11-30T14:26:48Z",
+      "startTime": "2022-01-08T16:19:22Z",
+      "endTime": "2022-01-08T16:26:41Z",
       "instrument": {
         "@id": "https://github.com/manubot/rootstock"
       },
       "object": {
-        "@id": "https://github.com/stain/ro-crate-paper/tree/b6a5208c1283dc55077a658faaa993421763ffb1"
+        "@id": "https://github.com/stain/ro-crate-paper/tree/4f1ce872ac51f6149e8128deddd32d0582d74015"
       },
       "result": {
         "@id": "manuscript.html"
@@ -2509,18 +2509,18 @@
       "startTime": "2021-10-04T13:44:00Z",
       "endTime": "2021-11-27T02:05:00Z",
       "object": {
-        "@id": "https://github.com/stain/ro-crate-paper/tree/b6a5208c1283dc55077a658faaa993421763ffb1"
+        "@id": "https://github.com/stain/ro-crate-paper/tree/4f1ce872ac51f6149e8128deddd32d0582d74015"
       },
       "resultComment": {
         "@id": "response.pdf"
       }
     },
     {
-      "@id": "https://github.com/stain/ro-crate-paper/tree/b6a5208c1283dc55077a658faaa993421763ffb1",
+      "@id": "https://github.com/stain/ro-crate-paper/tree/4f1ce872ac51f6149e8128deddd32d0582d74015",
       "@type": "Dataset",
       "name": "GitHub markdown for manuscript: Packaging research artefacts with RO-Crate",
-      "url": "https://github.com/stain/ro-crate-paper/releases/tag/revised-2021-11-30",
-      "version": "revised-2021-11-30"
+      "url": "https://github.com/stain/ro-crate-paper/releases/tag/published-2022-01-08",
+      "version": "published-2022-01-08"
     }
   ]
 }
