@@ -161,7 +161,7 @@
         }
       ],
       "creativeWorkStatus": {
-        "@id": "http://purl.org/spar/pso/accepted-for-publication"
+        "@id": "http://purl.org/spar/pso/published"
       },
       "description": "This is the RO-Crate for the article about RO-Crate, submitted to Data Science. The manuscript is included in HTML and PDF versions. Additionally this crate adds the latest RO-Crate specifications and known RO-Crate implementations.",
       "encoding": [
@@ -197,7 +197,7 @@
       ],
       "identifier": "https://doi.org/10.5281/zenodo.5146227",
       "isBasedOn": {
-        "@id": "https://doi.org/10.5281/zenodo.5146228"
+        "@id": "https://doi.org/10.5281/zenodo.5744421"
       },
       "review": {"@id": "https://datasciencehub.net/paper/packaging-research-artefacts-ro-crate"},
       "keywords": "Research Object, Linked Data, Scholarly Communication, Data publishing, Data packaging, FAIR, Metadata, Reproducibility",
@@ -214,18 +214,99 @@
       "publisher": {
         "@id": "https://www.researchobject.org/"
       },
-      "datePublished": "2021-11-30T14:35:00Z",
+      "datePublished": "2022-01-10T11:00:00Z",
       "sameAs": {"@id": "https://w3id.org/ro/doi/10.5281/zenodo.5146227"},
       "url": "https://w3id.org/ro/doi/10.5281/zenodo.5146227"
     },
     {
       "@id": "https://doi.org/10.5281/zenodo.5146228",
-      "@type": "ScholarlyArticle",
+      "@type": ["ScholarlyArticle", "Dataset"],
       "name": "Packaging research artefacts with RO-Crate",
       "datePublished": "2021-08-13T14:00:00Z",
       "creativeWorkStatus": {
         "@id": "http://purl.org/spar/pso/submitted"
       }
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.5744421",
+      "@type": ["ScholarlyArticle", "Dataset"],
+      "name": "Packaging research artefacts with RO-Crate",
+      "datePublished": "2021-08-13T14:00:00Z",
+      "isBasedOn": {
+        "@id": "https://doi.org/10.5281/zenodo.5146228"
+      },
+      "creativeWorkStatus": {
+        "@id": "http://purl.org/spar/pso/accepted"
+      }
+    },
+    {
+      "@id": "https://doi.org/10.3233/DS-210053",
+      "@type": "ScholarlyArticle",
+      "name": "Packaging research artefacts with RO-Crate",
+      "author": [
+        {
+          "@id": "https://orcid.org/0000-0001-9842-9718"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-3545-944X"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-1304-1939"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-3986-0510"
+        },
+        {
+          "@id": "https://orcid.org/0000-0001-6565-5145"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-4806-5140"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-0454-7145"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-3079-6586"
+        },        
+        {
+          "@id": "https://orcid.org/0000-0001-5383-6993"
+        },
+        {
+          "@id": "https://orcid.org/0000-0001-8271-5429"
+        },
+        {
+          "@id": "https://orcid.org/0000-0001-8131-2150"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-9648-6484"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-1991-0533"
+        },
+        {
+          "@id": "https://www.researchobject.org/ro-crate/community"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-0183-6910"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-1219-2137"
+        }
+      ],
+      "datePublished": "2022-01-04T13:00:00Z",
+      "isPartOf": [
+        {"@id": "http://datasciencehub.net/"}
+      ],
+      "creativeWorkStatus": {
+        "@id": "http://purl.org/spar/pso/published"
+      }
+    },
+    {
+      "@id": "http://datasciencehub.net/",
+      "@type": "Periodical",
+      "name": "Data Science",
+      "issn": "2451-8492",
+      "url": "http://datasciencehub.net/"
     },
     {
       "@id": "https://w3id.org/ro/crate/",
@@ -911,6 +992,9 @@
           "@id": "https://orcid.org/0000-0003-1219-2137"
         }
       ],
+      "creativeWorkStatus": {
+        "@id": "http://purl.org/spar/pso/proof"
+      },
       "description": "HTML manuscript of the RO-Crate article, created by Manubot",
       "abstract": "An increasing number of researchers support reproducibility by including pointers to and descriptions of datasets, software and methods in their publications. However, scientific articles may be ambiguous, incomplete and difficult to process by automated systems. In this paper we introduce RO-Crate, an open, community-driven, and lightweight approach to packaging research artefacts along with their metadata in a machine readable manner. RO-Crate is based on Schema.org annotations in JSON-LD, aiming to establish best practices to formally describe metadata in an accessible and practical way for their use in a wide variety of situations.\n\nAn RO-Crate is a structured archive of all the items that contributed to a research outcome, including their identifiers, provenance, relations and annotations. As a general purpose packaging approach for data and their metadata, RO-Crate is used across multiple areas, including bioinformatics, digital humanities and regulatory sciences. By applying “just enough” Linked Data standards, RO-Crate simplifies the process of making research outputs FAIR while also contributes to enhancing research reproducibility.",
       "name": "Packaging research artefacts with RO-Crate (HTML)",
@@ -1014,6 +1098,9 @@
         }
       ],
       "abstract": "An increasing number of researchers support reproducibility by including pointers to and descriptions of datasets, software and methods in their publications. However, scientific articles may be ambiguous, incomplete and difficult to process by automated systems. In this paper we introduce RO-Crate, an open, community-driven, and lightweight approach to packaging research artefacts along with their metadata in a machine readable manner. RO-Crate is based on Schema.org annotations in JSON-LD, aiming to establish best practices to formally describe metadata in an accessible and practical way for their use in a wide variety of situations.\n\nAn RO-Crate is a structured archive of all the items that contributed to a research outcome, including their identifiers, provenance, relations and annotations. As a general purpose packaging approach for data and their metadata, RO-Crate is used across multiple areas, including bioinformatics, digital humanities and regulatory sciences. By applying “just enough” Linked Data standards, RO-Crate simplifies the process of making research outputs FAIR while also contributes to enhancing research reproducibility.",
+      "creativeWorkStatus": {
+        "@id": "http://purl.org/spar/pso/proof"
+      },
       "description": "PDF manuscript of the RO-Crate article, created by Texlive",
       "name": "Packaging research artefacts with RO-Crate (PDF)",
       "isBasedOn": {"@id": "https://github.com/stain/ro-crate-paper/tree/4f1ce872ac51f6149e8128deddd32d0582d74015"}
@@ -1329,6 +1416,9 @@
       "@id": "https://datasciencehub.net/paper/packaging-research-artefacts-ro-crate",
       "type": "Review",
       "name": "DataScience submission 706-1686: Packaging research artefacts with RO-Crate",
+      "isPartOf": [
+        {"@id": "http://datasciencehub.net/"}
+      ],
       "itemReviewed": {
         "@id": "https://doi.org/10.5281/zenodo.5146228"
       },
@@ -1582,6 +1672,16 @@
       "@id": "http://purl.org/spar/pso/accepted-for-publication",
       "@type": "DefinedTerm",
       "name": "accepted for publication"
+    },
+    {
+      "@id": "http://purl.org/spar/pso/proof",
+      "@type": "DefinedTerm",
+      "name": "proof"
+    },
+    {
+      "@id": "http://purl.org/spar/pso/published",
+      "@type": "DefinedTerm",
+      "name": "published"
     },
     {
       "@id": "http://purl.obolibrary.org/obo/CRO_0000003",
